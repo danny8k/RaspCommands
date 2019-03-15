@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RaspCommands"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="420.816" Width="247.385">
+	<Grid>
+		<Button Content="Test Connection" HorizontalAlignment="Left" Height="35" Margin="24,303,0,0" VerticalAlignment="Top" Width="188" Click="Button_Click"/>
+		<Label Content="Hostname" Height="27" Margin="24,10,106,0" VerticalAlignment="Top"/>
+		<TextBox x:Name="hostname" HorizontalAlignment="Left" Height="20" Margin="24,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188"/>
+		<Label Content="Username" HorizontalAlignment="Left" Height="24" Margin="24,80,0,0" VerticalAlignment="Top" Width="109"/>
+		<Label Content="Password" HorizontalAlignment="Left" Height="27" Margin="24,145,0,0" VerticalAlignment="Top" Width="109"/>
+		<TextBox x:Name="username" HorizontalAlignment="Left" Height="20" Margin="24,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188"/>
+		<TextBox x:Name="password" HorizontalAlignment="Left" Height="20" Margin="24,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" />
+		<Button x:Name="SaveSettings" Content="Save" HorizontalAlignment="Left" Height="34" Margin="24,212,0,0" VerticalAlignment="Top" Width="79" Click="Button_Click_1"/>
+
+	</Grid>
 </Window>
